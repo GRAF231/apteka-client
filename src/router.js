@@ -15,5 +15,9 @@ export default new Router({
             path: '/orders',
             component: () => import('./components/pages/Orders.vue')
         },
+        {
+            path: '/authorization',
+            component: () => import('./components/pages/Authorization.vue')
+        },
     ]
 })
