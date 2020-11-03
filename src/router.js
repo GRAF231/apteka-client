@@ -14,6 +14,6 @@ export default new Router({
         {
             path: '/orders',
             component: () => import('./components/pages/Orders.vue')
-        }
+        },
     ]
 })
