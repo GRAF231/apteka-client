@@ -19,9 +19,12 @@
 
 export default {
   name: 'App',
+  components: [
+          
+  ],
   data: function() {
     return {
-      currentTab: "Chat",
+      currentTab: "Login",
       tabs: [
         {
           componentName: "Login",
